@@ -5,6 +5,7 @@ class Employee
 	int id;
 	String name,designation;
 	double basicSalary;
+	static String organisation ="Anudip";
 	
 	//parametrized constructor//it will not return any value explicitly,implicitl
 	//it will return
@@ -17,8 +18,8 @@ class Employee
 	}
 	public void display()
 	{
-		System.out.println("Id: "+id+" "+"Name:"+name + "designation: "+ 
-				designation+"Basic salary:"+basicSalary);
+		System.out.println("Id: "+this.id+" "+"Name:"+this.name + "designation: "+ 
+				this.designation+"Basic salary:"+this.basicSalary+" OrganiZation: "+organisation);
 	}
 }
 
